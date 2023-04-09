@@ -82,12 +82,10 @@ class _HomeState extends State<Home> {
               BottomNavigationBarItem(
                   icon: Icon(Icons.home_filled, color: Colors.black),
                   label: 'Home'),
-              BottomNavigationBarItem(
-                  icon: Icon(Icons.home_filled), label: 'Likes'),
-              BottomNavigationBarItem(
-                  icon: Icon(Icons.home_filled), label: 'Pairs'),
-              BottomNavigationBarItem(
-                  icon: Icon(Icons.home_filled), label: 'Back')
+              BottomNavigationBarItem(icon: Icon(Icons.search), label: 'Likes'),
+              BottomNavigationBarItem(icon: Icon(Icons.star), label: 'Pairs'),
+              BottomNavigationBarItem(icon: Icon(Icons.chat), label: 'Back'),
+              BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Back')
             ]));
   }
 }
