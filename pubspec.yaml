@@ -35,7 +35,7 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
-  flutter_tindercard: ^0.2.0
+  flutter_tindercard_plus: ^0.0.2
   line_icons:
   flutter_svg:
   flutter_custom_clippers: ^1.1.2
